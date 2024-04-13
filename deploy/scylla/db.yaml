@@ -1,0 +1,16 @@
+datacenter: us-east-1
+developerMode: true
+racks:
+- name: us-east-1b
+  members: 1
+  storage:
+    capacity: 5Gi
+  resources:
+    limits:
+      cpu: 1
+      memory: 1Gi
+    requests:
+      cpu: 1
+      memory: 1Gi
+serviceMonitor:
+  create: false
